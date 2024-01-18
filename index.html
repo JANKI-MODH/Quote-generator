@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote_generator</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="Quote-box">
+        <h2>Quote Of The Day</h2>
+        <blockquote id="quote">loading,..</blockquote>
+        <span id="author">loading..</span>
+        <div>
+            <button onclick="getquote(api_url)">New Quote</button>
+            <button onclick=tweet()><img src="twitter.png" alt="">Tweet</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
